@@ -1,20 +1,3 @@
-In Quiz Quest, players take on the role of a Trivia Master, responsible for creating,
-managing, and conducting an engaging quiz game. The goal is to efficiently organize
-quiz rounds, record player scores, and ensure fair and accurate gameplay. As an
-HSYD300-1 student, i have designee a quiz-based game with the following specifications:
-1. Create Quiz Questions: Players can input trivia questions, assign difficulty
-levels, and set multiple-choice or open-ended formats.
-2. Manage Quiz Rounds: Players can group questions into themed rounds and
-determine time limits for answering.
-3. Record Player Scores: The system keeps track of each participant’s score,
-updating it as the game progresses.
-4. Search Past Scores: Users can search for scores based on player name, quiz
-date, or difficulty level.
-5. Update Scores: Scores can be adjusted to correct mistakes or accommodate
-bonus points.
-6. Delete Quiz Data: Unwanted or outdated quizzes and scores can be removed
-from the system.
-7. Leaderboard Feature: Display top scorers in real-time, sorted by highest
-scores.
-The game aims to test knowledge, enhance memory, and make learning fun while
-ensuring seamless quiz management.
+Developed a strategic board game simulation where the player controls a king navigating an 8x8 chessboard to escape an enemy invasion. The king starts at a specified position and must reach an exit while avoiding dynamically appearing enemy pieces (e.g., pawns, knights). Each turn introduces new obstacles via an array-driven system, requiring pathfinding and decision-making. The core challenge was to compute the earliest possible move for escape, simulating real-time board state changes.
+
+Integrated a MySQL database to persistently track piece movements, positions, and game states for analysis and replayability. Designed and implemented the chessboard_positions table to log move sequences, enaabling efficient querying of game progression and optimization of escape strategies.
